@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <!-- Empty until an application icon is designed. AUTORCC still compiles
+             this file, so the resource system stays wired up and adding
+             <file>app_256.png</file> back here is the only change needed. -->
+    </qresource>
+</RCC>

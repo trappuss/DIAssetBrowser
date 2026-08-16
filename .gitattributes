@@ -1,0 +1,12 @@
+# Normalise text in the repository, check out native on each platform.
+* text=auto
+
+# Windows batch files are parsed line by line by cmd.exe; an LF-only .bat can
+# break "goto :label" and multi-line blocks. Force CRLF on checkout.
+*.bat  text eol=crlf
+
+# Sources are UTF-8 without BOM (CMakeLists passes /utf-8 to MSVC for this).
+*.cpp  text
+*.h    text
+*.py   text
+*.md   text

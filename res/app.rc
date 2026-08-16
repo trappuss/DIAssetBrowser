@@ -1,0 +1,46 @@
+// NO APPLICATION ICON YET. There was a generated placeholder here; it is gone
+// until a real one is designed, and the exe deliberately carries Windows'
+// default rather than a stand-in that looks like a decision.
+//
+// To add one: drop app.ico beside this file, restore the line
+//     IDI_ICON1 ICON "app.ico"
+// here, put the PNG back in app.qrc, and re-enable the setWindowIcon block in
+// src/main.cpp. The CMake OBJECT_DEPENDS on app.ico is already in place, so
+// replacing the .ico later rebuilds the resource (rc.exe reads the .ico THROUGH
+// this file, so without that dependency the old icon would stick).
+
+// Version resource — what Explorer shows under Properties > Details.
+// KEEP IN STEP with src/main.cpp's setApplicationVersion, CMakeLists.txt and vcpkg.json.
+#define VER_NUM 2,0,0,0
+#define VER_STR "2.0.0"
+
+// Literal 1, not VS_VERSION_INFO: that constant lives in winver.h and this file
+// includes no headers — rc.exe silently makes a NAMED resource from an unknown
+// identifier, which Explorer does not read (D4-project lesson, kept verbatim).
+1 VERSIONINFO
+FILEVERSION    VER_NUM
+PRODUCTVERSION VER_NUM
+FILEFLAGSMASK  0x3fL
+FILEFLAGS      0x0L
+FILEOS         0x40004L   // VOS_NT_WINDOWS32
+FILETYPE       0x1L       // VFT_APP
+FILESUBTYPE    0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"   // US English, Unicode
+        BEGIN
+            VALUE "FileDescription", "DIAssetBrowser - Diablo Immortal asset browser"
+            VALUE "FileVersion",     VER_STR
+            VALUE "InternalName",    "DIAssetBrowser"
+            VALUE "OriginalFilename","DIAssetBrowser.exe"
+            VALUE "ProductName",     "DIAssetBrowser"
+            VALUE "ProductVersion",  VER_STR
+            VALUE "Comments",        "Not affiliated with or endorsed by Blizzard Entertainment or NetEase."
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END

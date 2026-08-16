@@ -1,0 +1,22 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg/master/scripts/vcpkg.schema.json",
+  "name": "diassetbrowser",
+  "version": "2.0.0",
+  "description": "Native C++/Qt6 Diablo Immortal asset browser - reads the PC client's MPK store directly.",
+  "dependencies": [
+    {
+      "name": "qtbase",
+      "default-features": false,
+      "features": [
+        "widgets",
+        "opengl",
+        "gui",
+        "png",
+        "jpeg",
+        "network"
+      ]
+    },
+    "lz4"
+  ],
+  "builtin-baseline": "94a541197763a4f449a1b91478df48c0584a6256"
+}

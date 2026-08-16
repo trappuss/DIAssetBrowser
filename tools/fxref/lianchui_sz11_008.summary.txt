@@ -1,0 +1,31 @@
+fx_sz11_008_crusader_lianchui — emitter census (from process-dump tree, 2026-08-15)
+17 emitters (3 disabled: "__none__", "niuqu_01", trailing garbage-name).
+
+ENABLED emitters and their nature:
+ huoyan_01  Mesh(024b8506) Effect/Twisted  MaxP=1  UVscroll(0.6,0.9)  scale(.11,.1,0)  -> core flame card, scrolling twist
+ huoyan_02  Mesh(024b8506) Effect/Twisted  MaxP=1  UVscroll(0.6,0.9)  scale(.11,.1,0) rot(0,90,0) -> crossed flame card
+ huoyan_03  Mesh(024b8506) Effect/Fresnel  MaxP=1  life5 rate5 burst2  scale(.24,.28,.24) -> flame body
+ huoyan_04  Sprite Particle MaxP=1 life5 InitSize .2 Size2D(1.12,1.84) ColorByLife  -> flame billboard
+ huoyan_05  Sprite Particle MaxP=1 life5 InitSize .15 Size2D(1,1.72)            -> flame billboard
+ huoyan_06  Sprite Particle MaxP=1 SubUV 8x8 @35tps rot=pi  scale(.3,-.3)       -> flipbook flame
+ huoyan_07  Sprite Particle MaxP=1 SubUV 8x8 @45tps rot=pi                       -> flipbook flame
+ huoyan_08  Mesh(12159d7b) Effect/Fresnel MaxP=1 InitSize .2 Size3D             -> flame shell
+ glow_01    Sprite Particle MaxP=1 life5 AlphaByLife  scale(1,1.5)              -> soft base glow
+ xingdian_01 Sprite Particle MaxP=3 SubUV 3x3 @9tps InitVel Sphere(c=0,1.5,0 r.65-.7) InitPos Cylinder Jitter -> sparks rising
+ yanwu_02   Sprite MaxP=7  life~2 InitVel(0.2,0.25,0) SubUV 4x1                  -> smoke
+ yanwu_03   Sprite MaxP=8  InitVel(0.5,0,0) SubUV 4x1                            -> smoke drift
+ yanwu_06   Sprite MaxP=6  InitVel(0.5,0,0)                                      -> smoke
+ lizi_02    Sprite MaxP=100 rate80 life1.3 InitVel(0,.5,0) InitPos Sphere r.2 SubUV 8x8 @60tps Force(0,.1,0) -> EMBERS
+
+System.Property.Bias = (0,1.6,0)  (whole system offset up to the mace head)
+
+Textures (diffuse GUIDs): flame 041616d0..., flipbook-flame e46f2de8..., ember e904b649..., spark b57ef033..., smoke b74534a8.../852f2172..., glow 386502bc...
+Meshes: flame-card 024b8506..., flame-shell 12159d7b..., 08-mesh f5acc1e2... (disabled emitter)
+
+KEY RENDERING FACTS the current static renderer ignores:
+ - MaxParticles + EmissionRate + InitLife  => must SIMULATE spawn/age/die
+ - SubUVByLife (TilesPerSecond, atlas = sprite RepeatU x RepeatV) => flipbook frame
+ - ColorByLife / AlphaByLife / SizeByLife / Size2DByLife => per-life fade & scale
+ - InitVelocity/InitPosition (Sphere/Cylinder/UniformVec3) => spawn spread + rise
+ - Force, Jitter => drift
+ - System Bias (0,1.6,0) => the flame sits at the mace head, not model origin

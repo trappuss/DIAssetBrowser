@@ -1,0 +1,54 @@
+# ── Build output ───────────────────────────────────────────────────────────
+build/
+out/
+dist/
+vcpkg_installed/
+CMakeUserPresets.json
+
+# ── The portable data folder ───────────────────────────────────────────────
+# Settings, caches, thumbnails, logs — everything the app writes lives here,
+# beside the exe. It is created on first run and is per-machine by definition.
+data/
+
+# ── Build logs and one-off reports ─────────────────────────────────────────
+build_log.txt
+build_errors.txt
+anim_verify_report.txt
+fx_dump_report.txt
+*.log
+
+# ── Captures and research artefacts ────────────────────────────────────────
+# A minidump is hundreds of megabytes and is a snapshot of a running GAME
+# process — it does not belong in a public repository under any circumstances.
+*.DMP
+*.dmp
+guid_blob_samples/
+_probe/
+_golden/
+_fxwork/
+_to_delete/
+
+# ── Local backups ──────────────────────────────────────────────────────────
+_backups/
+.Backups/
+*_backup_*/
+*_backup_*.txt
+src_backup_*/
+
+# ── Editor / OS ────────────────────────────────────────────────────────────
+.vs/
+.vscode/
+.idea/
+*.user
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ── Game data must never be committed ──────────────────────────────────────
+# The tool READS an installed game; nothing from it is redistributable.
+*.mpk
+*.mpkinfo
+Package/
+
+# Staging folder for the GitHub upload (built by copying, not tracked).
+_github/

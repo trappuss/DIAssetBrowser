@@ -1,0 +1,335 @@
+# DIAssetBrowser cosmetic-set real-name overrides
+# Fill the third column with the in-game marketing name.
+# Format:  setKey,class,name   (blank class = applies to all classes)
+# The comment line above each row is the decoded structural name.
+# setKey,class,name
+# Monk (M) — Legs · set s03_001
+s03_001,,
+# Demonhunter (M) — half Helmet · set s03_002
+s03_002,,
+# Monk (M) — Bracers · set s04_001
+s04_001,,
+# Monk (F) — Scroll · set s04_002
+s04_002,,
+# Demonhunter (M) — Legs · set s04_003
+s04_003,,
+# Barbarian (F) — Shoulders · set s04_004
+s04_004,,
+# Necromancer (M) — Legs · set s05_002
+s05_002,,
+# Barbarian (M) — Legs · set sz01_001
+sz01_001,,
+# Demonhunter (M) — half Helmet · set sz01_002
+sz01_002,,
+# Barbarian (M) — full Helmet · set sz01_003
+sz01_003,,
+# Sorceress (M) — Chest · set sz01_004
+sz01_004,,
+# Monk (M) — Bracers · set sz01_005
+sz01_005,,
+# Monk (F) — Bracers · set sz01_006
+sz01_006,,
+# Crusader (M) — Chest · set sz01_007
+sz01_007,,
+# Demonhunter (M) — Legs · set sz01_008
+sz01_008,,
+# Tempest (M) — hair Helmet · set sz01_009
+sz01_009,,
+# Crusader (M) — Chest · set sz01_010
+sz01_010,,
+# Necromancer (F) — Chest · set sz02_001
+sz02_001,,
+# Monk (M) — Scroll · set sz02_003
+sz02_003,,
+# Crusader (F) — Chest · set sz02_004
+sz02_004,,
+# Monk (F) — Legs · set sz02_005
+sz02_005,,
+# Barbarian (M) — Shoulders · set sz02_006
+sz02_006,,
+# Monk (F) — Shoulders · set sz02_007
+sz02_007,,
+# Monk (M) — Hair · set sz02_008
+sz02_008,,
+# Monk (M) — Bracers · set sz03_001
+sz03_001,,
+# Demonhunter (F) — full Helmet · set sz03_002
+sz03_002,,
+# Monk (M) — Scroll · set sz03_003
+sz03_003,,
+# Warlock (F) — Legs · set sz03_004
+sz03_004,,
+# Monk (M) — full Helmet · set sz03_005
+sz03_005,,
+# Barbarian (M) — Weapon · set sz03_006
+sz03_006,,
+# Monk (M) — uncolored Beard · set sz03_007
+sz03_007,,
+# Necromancer (F) — Chest · set sz03_008
+sz03_008,,
+# Necromancer (M) — Chest · set sz03_009
+sz03_009,,
+# Monk (F) — Legs · set sz03_010
+sz03_010,,
+# Monk (F) — full Helmet · set sz04_001
+sz04_001,,
+# Monk (M) — face Helmet · set sz04_002
+sz04_002,,
+# Monk (M) — Neck · set sz04_0022
+sz04_0022,,
+# Demonhunter (M) — Shoulders · set sz04_003
+sz04_003,,
+# Bloodknight (F) — Chest · set sz04_004
+sz04_004,,
+# Tempest (M) — Legs · set sz04_005
+sz04_005,,
+# Tempest (M) — uncolored Hair · set sz04_006
+sz04_006,,
+# Crusader (M) — half Helmet · set sz04_007
+sz04_007,,
+# Barbarian (M) — uncolored Hair · set sz04_008
+sz04_008,,
+# Crusader (M) — full Helmet · set sz04_009
+sz04_009,,
+# Demonhunter (M) — face Helmet · set sz05_001
+sz05_001,,
+# Barbarian (F) — parts Chest · set sz05_003
+sz05_003,,
+# Monk (M) — Bracers · set sz05_004
+sz05_004,,
+# Bloodknight (F) — parts Shoulders · set sz05_005
+sz05_005,,
+# Tempest (F) — Chest · set sz05_006
+sz05_006,,
+# Barbarian (F) — Weapon · set sz05_007
+sz05_007,,
+# Crusader (F) — half Helmet · set sz05_008
+sz05_008,,
+# Monk (F) — Bracers · set sz05_009
+sz05_009,,
+# Demonhunter (F) — Chest · set sz06_001
+sz06_001,,
+# Barbarian (M) — Legs · set sz06_002
+sz06_002,,
+# Monk (F) — Bracers · set sz06_003
+sz06_003,,
+# Demonhunter (M) — full Helmet · set sz06_004
+sz06_004,,
+# Necromancer (F) — parts Chest · set sz06_005
+sz06_005,,
+# Monk (F) — Shoulders · set sz06_006
+sz06_006,,
+# Tempest (F) — parts Chest · set sz06_007
+sz06_007,,
+# Necromancer (F) — Chest · set sz06_008
+sz06_008,,
+# Demonhunter (M) — Legs · set sz06_009
+sz06_009,,
+# Sorceress (M) — Chest · set sz07_001
+sz07_001,,
+# Bloodknight (F) — Chest · set sz07_002
+sz07_002,,
+# Bloodknight (F) — uncolored Hair · set sz07_003
+sz07_003,,
+# Monk (F) — Bracers · set sz07_004
+sz07_004,,
+# Necromancer (M) — Legs · set sz07_005
+sz07_005,,
+# Crusader (M) — full Helmet · set sz07_006
+sz07_006,,
+# Tempest (F) — Chest · set sz07_007
+sz07_007,,
+# Bloodknight (F) — Legs · set sz07_008
+sz07_008,,
+# Demonhunter (F) — parts Chest · set sz07_009
+sz07_009,,
+# Bloodknight (M) — parts Shoulders · set sz08_001
+sz08_001,,
+# Tempest (F) — full Helmet · set sz08_002
+sz08_002,,
+# Tempest (M) — Chest · set sz08_003
+sz08_003,,
+# Crusader (M) — half Helmet · set sz08_004
+sz08_004,,
+# Druid (M) — Legs · set sz08_005
+sz08_005,,
+# Tempest (M) — Legs · set sz08_006
+sz08_006,,
+# Tempest (F) — accessory Chest · set sz08_007
+sz08_007,,
+# Crusader (F) — left Shoulders · set sz08_008
+sz08_008,,
+# Monk (F) — half Helmet · set sz08_009
+sz08_009,,
+# Monk (M) — parts Chest · set sz09_001
+sz09_001,,
+# Crusader (M) — half Helmet · set sz09_002
+sz09_002,,
+# Monk (F) — Bracers · set sz09_003
+sz09_003,,
+# Monk (M) — Bracers · set sz09_004
+sz09_004,,
+# Monk (F) — parts Helmet · set sz09_005
+sz09_005,,
+# Sorceress (M) — Shoulders · set sz09_006
+sz09_006,,
+# Necromancer (F) — parts Helmet · set sz09_007
+sz09_007,,
+# Barbarian (M) — Legs · set sz09_008
+sz09_008,,
+# Bloodknight (M) — Chest · set sz09_009
+sz09_009,,
+# Demonhunter (F) — full Helmet · set sz10_001
+sz10_001,,
+# Sorceress (M) — right Shoulders · set sz10_002
+sz10_002,,
+# Demonhunter (F) — Legs · set sz10_003
+sz10_003,,
+# Monk (M) — full Helmet · set sz10_004
+sz10_004,,
+# Barbarian (F) — Shoulders · set sz10_005
+sz10_005,,
+# Demonhunter (F) — right Shoulders · set sz10_006
+sz10_006,,
+# Tempest (F) — Chest · set sz10_007
+sz10_007,,
+# Crusader (M) — Shoulders · set sz10_008
+sz10_008,,
+# Druid (M) — uncolored Hair · set sz10_009
+sz10_009,,
+# Druid (F) — full Helmet · set sz10_010
+sz10_010,,
+# Monk (M) — Legs · set sz11_001
+sz11_001,,
+# Bloodknight (F) — left Shoulders · set sz11_002
+sz11_002,,
+# Demonhunter (M) — full Helmet · set sz11_003
+sz11_003,,
+# Crusader (F) — left Shoulders · set sz11_004
+sz11_004,,
+# Tempest (M) — Legs · set sz11_005
+sz11_005,,
+# Druid (M) — Skirt · set sz11_006
+sz11_006,,
+# Monk (M) — Scroll · set sz11_007
+sz11_007,,
+# Tempest (F) — parts Chest · set sz11_008
+sz11_008,,
+# Bloodknight (M) — parts Shoulders · set sz11_009
+sz11_009,,
+# Demonhunter (F) — Chest · set sz11_010
+sz11_010,,
+# Warlock (F) — Shoulders · set sz11_011
+sz11_011,,
+# Tempest (M) — Shoulders · set sz12_001
+sz12_001,,
+# Bloodknight (F) — Shoulders · set sz12_002
+sz12_002,,
+# Demonhunter (F) — Chest · set sz12_003
+sz12_003,,
+# Crusader (M) — Legs · set sz12_004
+sz12_004,,
+# Tempest (M) — full Helmet · set sz12_005
+sz12_005,,
+# Barbarian (M) — Chest · set sz12_009
+sz12_009,,
+# Necromancer (M) — parts Chest · set sz13_001
+sz13_001,,
+# Necromancer (F) — Legs · set t00_000
+t00_000,,
+# Druid (F) — Skirt · set t00_001
+t00_001,,
+# Warlock (F) — Chest · set t00_002
+t00_002,,
+# Druid (F) — Shoulders · set t00_003
+t00_003,,
+# Druid (F) — Skirt · set t00_004
+t00_004,,
+# Warlock (M) — hair Helmet · set t00_005
+t00_005,,
+# Druid (M) — Skirt · set t00_006
+t00_006,,
+# Tempest (M) — Shoulders · set t01_001
+t01_001,,
+# Druid (F) — Legs · set t01_002
+t01_002,,
+# Bloodknight (F) — Shoulders · set t02_001
+t02_001,,
+# Bloodknight (M) — Chest · set t02_002
+t02_002,,
+# Bloodknight (M) — Helmet · set t03_001
+t03_001,,
+# Barbarian (F) — Weapon · set t03_002
+t03_002,,
+# Tempest (F) — half Helmet · set t03_003
+t03_003,,
+# Bloodknight (M) — Chest · set t03_004
+t03_004,,
+# Necromancer (F) — Chest · set t04_001
+t04_001,,
+# Necromancer (F) — Helmet · set t04_002
+t04_002,,
+# Bloodknight (M) — Legs · set t04_003
+t04_003,,
+# Monk (M) — Bracers · set t04_004
+t04_004,,
+# Bloodknight (F) — Helmet · set t04_005
+t04_005,,
+# Bloodknight (F) — Legs · set t04_006
+t04_006,,
+# Demonhunter (M) — Legs · set t04_007
+t04_007,,
+# Barbarian (M) — Chest · set t04_008
+t04_008,,
+# Tempest (F) — Shoulders · set t04_009
+t04_009,,
+# Crusader (M) — Shoulders · set t04_010
+t04_010,,
+# Bloodknight (F) — Helmet · set t04_011
+t04_011,,
+# Crusader (M) — Shoulders · set t05_001
+t05_001,,
+# Bloodknight (F) — Chest · set t05_003
+t05_003,,
+# Bloodknight (F) — Legs · set t05_005
+t05_005,,
+# Bloodknight (F) — Hair · set t05_006
+t05_006,,
+# Barbarian (M) — Legs · set t05_007
+t05_007,,
+# Bloodknight (F) — hair Helmet · set t05_008
+t05_008,,
+# Tempest (F) — Chest · set t05_009
+t05_009,,
+# Monk (F) — Bracers · set t06_002
+t06_002,,
+# Sorceress (M) — Chest · set t06_003
+t06_003,,
+# Bloodknight (M) — Legs · set t06_004
+t06_004,,
+# Necromancer (F) — full Helmet · set t06_005
+t06_005,,
+# Crusader (F) — Shoulders · set t06_006
+t06_006,,
+# Monk (M) — Legs · set t06_007
+t06_007,,
+# Tempest (M) — Weapon · set t06_008
+t06_008,,
+# Demonhunter (F) — Shoulders · set t06_009
+t06_009,,
+# Sorceress (M) — left Shoulders · set t07_001
+t07_001,,
+# Demonhunter (F) — Chest · set t07_002
+t07_002,,
+# Warlock (F) — full Helmet · set t07_003
+t07_003,,
+# Warlock (F) — Chest · set t07_004
+t07_004,,
+# Tempest (M) — parts Chest · set t07_005
+t07_005,,
+# Crusader (F) — Legs · set t07_006
+t07_006,,
+# Sorceress (M) — full Helmet · set ty01_001
+ty01_001,,
+# Sorceress (M) — full Helmet · set ty01_004
+ty01_004,,
