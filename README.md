@@ -1,6 +1,4 @@
 # DIAssetBrowser
-
-# Preview
 <img width="2560" height="1417" alt="DIAssetBrowser_9HENt6tsEW-ezgif com-optimize" src="https://github.com/user-attachments/assets/02157df1-6533-44bd-a932-83e0755b06df" />
 
 
